@@ -1,0 +1,62 @@
+/*General*/
+
+body {
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+  width: 970px;
+  height: 1000px;
+}
+
+/*Header*/
+
+header {
+  display: inline-block;
+  width: 970px;
+  height: 150px;
+  background: #265175;
+}
+
+header img {
+  display: inline-block;
+  max-width: 60%;
+  max-height: 60%;
+  padding: 10px 0px 0px 10px;
+}
+
+header p {
+  display: inline-block;
+  position: absolute;
+  right: 400px;
+  margin: 0;
+  padding-top: 10px;
+  color: white;
+}
+
+header p a {
+  color: #D4B200;
+}
+
+#searchbar {
+  display: inline-block;
+  position: relative;
+  left: 330px;
+  bottom: 40px;
+  width: 300px;
+  height: 75px;
+  background: #444444;
+  border-radius: 20px;
+}
+
+#searchbar2 {
+  display: inline-block;
+  position: relative;
+  left: 45px;
+  top: 25px;
+  margin: 0px;
+}
+
+#searchbar2 button {
+  background: #265175;
+  color: white;
+}

@@ -92,12 +92,12 @@ header p a {
 
 }
 
-/*About Nav*/
+/*About Section*/
 
 #aboutsection {
   display: block;
   height: 350px;
-  border: 1px dotted red;
+  /*border: 1px dotted red;*/
   margin-top: 15px;
   text-align: center;
 }
@@ -163,3 +163,38 @@ header p a {
 #zenofpython {
   color: white;
 }
+
+/*Information Section*/
+
+#information {
+  display: block;
+  height: 250px;
+  background: white;
+  /*border: 1px dotted red;*/
+  font-size: .9em;
+}
+
+#gettingstarted {
+  display: inline-block;
+  width: 350px;
+  height: 100%;
+  /*border: 1px dotted red;*/
+  vertical-align: top;
+  margin: 15px 15px 0px 0px;
+}
+
+#applications {
+  display: inline-block;
+  width: 350px;
+  height: 100%;
+  /*border: 1px dotted red;*/
+  vertical-align: top;
+  margin: 15px 10px 0px 15px;
+}
+
+#information ul li {
+  list-style-position: inside;
+  color: #75A8D3;
+}
+
+/*Footer*/

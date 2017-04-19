@@ -1,4 +1,5 @@
 /*General*/
+
 *{
   margin: 0px;
   padding: 0px;
@@ -6,7 +7,7 @@
 }
 
 #globalwrapper {
-  display: inline-block;
+  display: block;
   margin: 0px;
   padding: 0px;
   width: 970px;
@@ -17,7 +18,7 @@
 /*Header*/
 
 header {
-  display: inline-block;
+  display: block;
   width: 970px;
   height: 140px;
   background: #265175;
@@ -45,9 +46,8 @@ header p a {
 
 #searchbar {
   display: inline-block;
-  position: relative;
-  left: 320px;
-  bottom: 45px;
+  margin: -65px 0px 50px 660px;
+  vertical-align: top;
   width: 300px;
   height: 75px;
   background: #444444;
@@ -57,10 +57,7 @@ header p a {
 
 #searchbar2 {
   display: inline-block;
-  position: relative;
-  left: 45px;
-  top: 25px;
-  margin: 0px;
+  margin: 27px 0px 0px 55px;
 }
 
 #searchbar2 button {
@@ -72,7 +69,7 @@ header p a {
 
 #navbar {
   width: 800px;
-  height: 100px;
+  height: 75px;
   background: #4A80AB;
   margin: 0px auto;
   border-radius: 20px;
@@ -85,7 +82,7 @@ header p a {
   list-style-type: none;
   padding: 8px 10px;
   font-size: 1.5em;
-  line-height: 100px;
+  line-height: 75px;
 }
 
 #navbar a{
@@ -93,4 +90,76 @@ header p a {
   color: white;
   display: inline-block;
 
+}
+
+/*About Nav*/
+
+#aboutsection {
+  display: block;
+  height: 350px;
+  border: 1px dotted red;
+  margin-top: 15px;
+  text-align: center;
+}
+
+#aboutnav {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  /*border: 1px dotted green;*/
+  margin: 10px 0px 0px 10px;
+  vertical-align: top;
+}
+
+#aboutnav ul li {
+  padding: 8px 10px;
+  list-style: none;
+  margin-left: 0;
+  padding-left: 1em;
+  text-indent: -1em;
+  list-style-position: inside;
+}
+
+#aboutnav ul li a {
+  color: white;
+  line-height: 25px;
+}
+
+#aboutnav ul li a span {
+  text-decoration: none;
+}
+
+/*History/Zen Section*/
+
+#historyzen {
+  display: inline-block;
+  width: 575px;
+  height: 350px;
+  /*border: 1px dotted white;*/
+  vertical-align: top;
+}
+
+#historyzen ul li {
+  list-style-position: inside;
+}
+
+#historyzen p {
+  color: white;
+  font-size: .9em;
+}
+
+#historyzen ul li {
+  list-style-type: none;
+  padding: 8px 10px;
+  font-size: 1.25em;
+  line-height: 25px;
+}
+
+.zen {
+  color: #FFD343;
+  font-style: italic;
+}
+
+#zenofpython {
+  color: white;
 }

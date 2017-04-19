@@ -8,11 +8,10 @@
 
 #globalwrapper {
   display: block;
-  margin: 0px;
-  padding: 0px;
   width: 970px;
   height: 1000px;
   background: #265175;
+  margin: 0px auto;
 }
 
 /*Header*/
@@ -33,9 +32,8 @@ header img {
 
 header p {
   display: inline-block;
-  position: absolute;
-  right: 400px;
-  margin: 0;
+  vertical-align: top;
+  margin: 0px 0px 0px 440px;
   padding-top: 10px;
   color: white;
 }
@@ -57,10 +55,18 @@ header p a {
 
 #searchbar2 {
   display: inline-block;
-  margin: 27px 0px 0px 55px;
+  margin: 15px 0px 0px 35px;
+}
+
+#searchbar2 input {
+  width: 200px;
+  height: 40px;
 }
 
 #searchbar2 button {
+  display: inline-block;
+  width: 40px;
+  height: 45px;
   background: #265175;
   color: white;
 }
@@ -180,6 +186,8 @@ header p a {
   /*border: 1px dotted red;*/
   vertical-align: top;
   margin: 15px 15px 0px 0px;
+  padding-top: 5px;
+  border-top: medium solid #89BAE3;
 }
 
 #applications {
@@ -189,6 +197,8 @@ header p a {
   /*border: 1px dotted red;*/
   vertical-align: top;
   margin: 15px 10px 0px 15px;
+  padding-top: 5px;
+  border-top: medium solid #89BAE3;
 }
 
 #information ul li {
@@ -202,25 +212,26 @@ header p a {
   color: #75A8D3;
 }
 
-
-
 /*Footer*/
 
 footer {
   display: block;
   height: 168px;
   text-align: center;
-  border: 1px dotted red;
-  line-height: 168px;
-}
-
-footer p {
- display: inline-block;
 }
 
 footer a {
-  display: inline;
+  display: inline-block;
   padding: 0px 10px;
   text-decoration: none;
   color: #89BAE3;
+  margin-top: 90px;
+}
+
+footer p {
+ display: block;
+ margin-top: 30px;
+ font-size: .5em;
+ color: #89BAE3;
+
 }

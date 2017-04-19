@@ -88,8 +88,6 @@ header p a {
 #navbar a{
   text-decoration: none;
   color: white;
-  display: inline-block;
-
 }
 
 /*About Section*/
@@ -172,6 +170,7 @@ header p a {
   background: white;
   /*border: 1px dotted red;*/
   font-size: .9em;
+  text-align: center;
 }
 
 #gettingstarted {
@@ -194,7 +193,34 @@ header p a {
 
 #information ul li {
   list-style-position: inside;
+  color: black;
+  text-align: left;
+}
+
+#information li a {
+  text-decoration: none;
   color: #75A8D3;
 }
 
+
+
 /*Footer*/
+
+footer {
+  display: block;
+  height: 168px;
+  text-align: center;
+  border: 1px dotted red;
+  line-height: 168px;
+}
+
+footer p {
+ display: inline-block;
+}
+
+footer a {
+  display: inline;
+  padding: 0px 10px;
+  text-decoration: none;
+  color: #89BAE3;
+}

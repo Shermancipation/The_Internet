@@ -28,13 +28,26 @@ header h1 {
   display: inline-block;
   width: 750px;
   height: 625px;
-  /*border: 1px dotted red;*/
 }
 
 #content img {
   display: inline-block;
+  margin: 5px 0px 0px 2px;
+}
+
+.blue {
+  display: inline-block;
+  height: 120px;
+  width: 120px;
+  background: #77b6ea;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.red {
+  display: inline-block;
   height: 140px;
   width: 140px;
-  margin: 5px 0px 0px 0px;
-  padding-left: 5px;
+  background: #fc6471;
+  border: 2px solid black;
 }

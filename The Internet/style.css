@@ -1,0 +1,47 @@
+/*Global*/
+
+#globalwrapper {
+  display: block;
+  width: 970px;
+  height: 1000px;
+}
+
+* {
+    font-family: "Arial", Georgia, Serif;
+}
+
+/*Header/Banner*/
+
+header {
+  display: block;
+  width: 970px;
+  height: 100px;
+}
+
+header img {
+  display: inline-block;
+  width: 125px;
+  height: 125px;
+}
+
+header h1 {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 3em;
+}
+
+#worldwidewebbanner {
+  display: block;
+  width: 970px;
+  height: 80px;
+  background: -webkit-linear-gradient(top, #d0e4f7 0%,#73b1e7 7%,#0a77d5 50%,#539fe1 79%,#87bcea 100%);
+  margin-top: 10px;
+}
+
+#worldwidewebbanner h2 {
+  display: inline-block;
+  font-size: 2.25em;
+  padding-left: 10px;
+  color: white;
+  margin: 10px 0px 0px 0px;
+}

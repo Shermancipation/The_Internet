@@ -42,17 +42,29 @@
           </div>
           <div id="clientsandservers">
             <h2>Clients and Servers</h2>
-            <p>Computers connected to the <span style="color:#26669C">Web</span> are called <span style="font-weight:bold">clients</span> and <span style="font-weight:bold">servers.</span>
+            <p>Computers connected to the <span style="color:#26669C; font-weight:bold">Web</span> are called <span style="font-weight:bold">clients</span> and <span style="font-weight:bold">servers.</span>
             <ul>
-              <li><span style="color:#26669C">Clients</span> are the typical Web user's Internet-connected devices (for example, your computer connected
-                to your Wi-Fi, or your phone connected to your mobile network) and <span style="color:#26669C">Web-accessing software</span> available
+              <li><span style="color:#26669C; font-weight:bold">Clients</span> are the typical Web user's Internet-connected devices (for example, your computer connected
+                to your Wi-Fi, or your phone connected to your mobile network) and <span style="color:#26669C; font-weight:bold">Web-accessing software</span> available
                 on those devices (usually a web browser like Firefox or Chrome)</li>
-              <li><span style="color:#26669C">Servers</span> are computers that store <span style="color:#26669C">webpages</span>, <span style="color:#26669C">sites</span>, or<span style="color:#26669C">apps</span>.
+              <li><span style="color:#26669C; font-weight:bold">Servers</span> are computers that store <span style="color:#26669C; font-weight:bold">webpages</span>, <span style="color:#26669C; font-weight:bold">sites</span>
+                , or <span style="color:#26669C; font-weight:bold">apps</span>.
                 When a client device wants to access a webpage, a copy of the webpage is downloaded from the server onto the client machine to be
                 displayed in the user's web browser.</li>
             </ul>
           </div>
-          <img src="images/client_server.jpg" alt="client_server">
+          <img id="clientserver" src="images/client_server.jpg" alt="client_server">
+          <div id="whathappens">
+            <h2>So What Actually Happens?</h2>
+            <ol>
+              <li>The browser goes to the <span style="color:#26669C; font-weight:bold">DNS Server</span> and finds the real address of the <span style="color:#26669C; font-weight:bold">server</span> that the website lives on.</li>
+              <li>The browser sends an <span style="color:#26669C; font-weight:bold">HTTP request</span> message tot he server asking it to send a copy of the website to
+                the client.</li>
+              <li>If the server approves the client's request, the server sends the client a <span style="color:#26669C; font-weight:bold">"200 OK" message</span>, which
+                means "Permission granted! Here you go!", and then starts sending the website's files to the browser
+                as a series of small chunks.</li>
+              <li>The browse assembles the small chunks into a complete website and displays it to you!</li>
+            </ol>
           </div>
       </div>
     </div>

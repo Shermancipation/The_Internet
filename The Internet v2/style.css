@@ -1,9 +1,10 @@
 /*Global*/
 
 #globalwrapper {
-  display: inline-block;
+  display: block;
   width: 970px;
   height: 1000px;
+  margin: 0px auto;
 }
 
 * {
@@ -143,8 +144,9 @@ header h1 {
   box-shadow: 2.5px 2.5px grey;
 }
 
-/*Main Content*/
+/*Contact Information Banner*/
 
+/*Content Container*/
 #content {
   display: inline-block;
   height: 790px;
@@ -203,4 +205,47 @@ header h1 {
   margin: 3px 0px;
   font-size: 2em;
   color: #00c0dd;
+}
+
+/*Main Content*/
+
+/*Clients and servers text section*/
+#clientsandservers {
+  width: 691px;
+  /*border: 1px dotted red;*/
+}
+
+#clientsandservers h2 {
+  margin-top: 5px;
+  color: #26669C;
+}
+
+#clientsandservers p {
+  margin-top: 10px;
+}
+
+#clientsandservers ul li{
+  margin: 5px 0px;
+}
+
+/*client/server image id*/
+#clientserver {
+  display: inline-block;
+  width: 50%;
+  margin-left: 170px;
+}
+
+/*So What Actually Happens? section*/
+
+#whathappens {
+  width: 691px;
+}
+
+#whathappens h2 {
+  margin-top: 5px;
+  color: #26669C;
+}
+
+#whathappens ol li{
+  margin-top: 10px;
 }

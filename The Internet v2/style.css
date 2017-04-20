@@ -1,13 +1,18 @@
 /*Global*/
 
 #globalwrapper {
-  display: block;
+  display: inline-block;
   width: 970px;
   height: 1000px;
 }
 
 * {
     font-family: "Arial", Georgia, Serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0px;
+  padding: 0px;
 }
 
 /*Header/Banner*/
@@ -136,4 +141,66 @@ header h1 {
   font-size: 1.1em;
   border: none;
   box-shadow: 2.5px 2.5px grey;
+}
+
+/*Main Content*/
+
+#content {
+  display: inline-block;
+  height: 790px;
+  width: 691px;
+  /*border: 1px dotted red;*/
+  margin-left: 20px;
+  vertical-align: top;
+}
+
+#contactinfo {
+  display: inline-block;
+  width: 691px;
+  height: 100px;
+  border-bottom: 1px solid black;
+}
+
+#homeimg {
+  display: inline-block;
+  width: 30px;
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+#contactinfo a {
+  display: inline-block;
+  vertical-align: top;
+  text-decoration: none;
+  color: #26669C;
+  font-size: 1.5em;
+  padding-top: 14px;
+}
+
+#phoneimg {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 15px 0px 0px 340px;
+  vertical-align: top;
+}
+
+#phonenumbers {
+  width: 185px;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin-top: 5px;
+  /*border: 1px dotted black;*/
+}
+
+#phonenumbers p {
+    font-size: .75em;
+}
+
+#phonenumbers h4 {
+  margin: 3px 0px;
+  font-size: 2em;
+  color: #00c0dd;
 }
